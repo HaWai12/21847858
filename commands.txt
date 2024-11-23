@@ -1,1 +1,19 @@
-curl parrot.live
+@echo off
+:: Willkommensnachrichten definieren
+set messages[0]=Willkommen zurück!
+set messages[1]=Schön, dich wiederzusehen!
+set messages[2]=Hey! Alles klar bei dir?
+set messages[3]=Guten Tag! Lass uns starten.
+set messages[4]=Freut mich, dass du hier bist!
+
+:: Anzahl der Nachrichten (anpassen, wenn mehr Nachrichten hinzugefügt werden)
+set count=5
+
+:: Zufallszahl generieren (zwischen 0 und count-1)
+set /a randomIndex=%random% %% %count%
+
+:: Zufällige Nachricht auswählen
+call set message=%%messages[%randomIndex%]%%
+
+:: Nachricht anzeigen
+msg * %message%
