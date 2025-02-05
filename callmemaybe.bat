@@ -1,3 +1,12 @@
+@echo off
+echo Startup Script v1
+:: Starting Startup script ...
 powershell -Command (New-Object Media.SoundPlayer "C:\Windows\Media\notify.wav").PlaySync()
-
-start chrome.exe https://www.pizzarally.de
+:: Playing Notification Sound
+start chrome.exe https://www.rallypizzeria.de/backend/restaurantadmin
+::Starting important task ...
+echo Task completed
+:: Additional Tasks
+start chrome.exe https://www.lieferando.de/speisekarte/pizzeria-rally-giessen
+echo  Completed. Now exiting
+:: Built by  Harri Wailand ,05.02.25 
