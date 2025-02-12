@@ -1,0 +1,11 @@
+    AAAAAA     OOOOOOO    SSSSSSSS    PPPPPPP
+   A      A   O       O   S            P     P
+   AAAAAAAA   O       O   SSSSSSSS     PPPPPP
+   A      A   O       O        S       P
+   A      A   O       O   SSSSSSSS     P
+
+______________________________________________
+Thanks to :
+----------------------------------------------
+-The litegapps team (for helping me fix the Playstore error)
+- DeerEverdeen ( For the newer Versions of the certs )
