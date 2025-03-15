@@ -1,1 +1,1 @@
-start chrome.exe https://www.susi.live
+Echo h
