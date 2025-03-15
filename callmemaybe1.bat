@@ -1,1 +1,1 @@
-echo du
+start chrome.exe https://www.susi.live
